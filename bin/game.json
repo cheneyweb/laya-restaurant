@@ -1,0 +1,1 @@
+{"type":"Scene","props":{"width":750,"runtime":"view/GameView.js","height":1334},"compId":2,"child":[{"type":"Button","props":{"y":591,"x":243.5,"width":263,"skin":"comp/button.png","labelSize":50,"label":"猫狗海鲜","height":152},"compId":3,"child":[{"type":"Script","props":{"runtime":"script/BtnTest.js"},"compId":4}]}],"loadList":["comp/button.png"],"loadList3D":[]}
