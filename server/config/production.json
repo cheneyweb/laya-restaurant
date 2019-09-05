@@ -15,8 +15,8 @@
         "secret": "cheneyweb",
         "tokenname": "token",
         "pass": [
-            "/player/create",
-            "/login"
+            "/xserver/player/login",
+            "/xnosql/player/update"
         ],
         "role":{
             "player":[".*"]

@@ -5,7 +5,7 @@ class Axios {
     constructor() {
         this.xhr = new Laya.HttpRequest()
         this.xhr.http.timeout = 10000
-        this.domain = 'http://localhost:3636'
+        this.domain = 'http://restaurant.xserver.top:3001'
     }
     get(url) {
         return new Promise((resolve, reject) => {
@@ -58,12 +58,14 @@ const store = new Store({
         user: {}
     },
     actions: {
+        // 玩家登录
         async login(data) {
             let res = await store.axios.post('/xserver/player/login', data)
             console.log(res)
         },
-        async getUser(data) {
-            let res = await store.axios.get(`/xnosql/player/query?username=${data.username}`)
+        // 上传存档
+        async upload(data) {
+            let res = await store.axios.post(`/xnosql/player/update`, data)
             console.log(res)
         }
     }

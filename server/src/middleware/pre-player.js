@@ -7,39 +7,22 @@ const router = new Router()
 const log = require('tracer').colorConsole({ level: config.log.level })
 
 /**
- * 注册玩家
- * 自动设置createAt
- */
-router.post('/player/create', async (ctx, next) => {
-    let inparam = ctx.request.body
-    let mongodb = global.mongodb
-    if (inparam.username.length > 10 || inparam.password.length > 16) {
-        ctx.body = { err: true, res: '帐号密码太长' }
-    } else if (await mongodb.collection('player').findOne({ username: inparam.username }, { projection: { _id: 1 } })) {
-        ctx.body = { err: true, res: '帐号已存在' }
-    } else {
-        delete inparam._id
-        return next()
-    }
-})
-
-/**
  * 更新玩家
  */
-router.post('/player/update', async (ctx, next) => {
-    let inparam = ctx.request.body
-    let mongodb = global.mongodb
-    if (!inparam.password) {
-        delete inparam.password
-    }
-    if (!inparam.username) {
-        delete inparam.username
-        return next()
-    } else if (await mongodb.collection('player').findOne({ username: inparam.username }, { projection: { _id: 1 } })) {
-        ctx.body = { err: true, res: '帐号已存在' }
-    } else {
-        return next()
-    }
-})
+// router.post('/player/update', async (ctx, next) => {
+//     let inparam = ctx.request.body
+//     let mongodb = global.mongodb
+//     if (!inparam.password) {
+//         delete inparam.password
+//     }
+//     if (!inparam.username) {
+//         delete inparam.username
+//         return next()
+//     } else if (await mongodb.collection('player').findOne({ username: inparam.username }, { projection: { _id: 1 } })) {
+//         ctx.body = { err: true, res: '帐号已存在' }
+//     } else {
+//         return next()
+//     }
+// })
 
 module.exports = router
