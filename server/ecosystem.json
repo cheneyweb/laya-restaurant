@@ -25,7 +25,7 @@
       "ref": "origin/master",
       "repo": "https://github.com/cheneyweb/laya-restaurant.git",
       "path": "/usr/local/node/restaurant",
-      "post-deploy": "git pull && npm install && pm2 startOrRestart ecosystem.json --env production"
+      "post-deploy": "cd server && git pull && npm install && pm2 startOrRestart ecosystem.json --env production"
     }
   }
 }
