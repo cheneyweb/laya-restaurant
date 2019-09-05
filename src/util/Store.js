@@ -64,9 +64,9 @@ const store = new Store({
         async login() {
             let player = store.pGetItem('player') || store.state.player
             let res = await store.axios.post('/xserver/player/login', player)
+            console.log(res)            
             store.state.player = res
             store.pSetItem('player', res)
-            // console.log(res)
         },
         // 上传存档
         async upload() {
@@ -74,7 +74,7 @@ const store = new Store({
             if (player) {
                 player.nickname = 'cheney2'
                 let res = await store.axios.post(`/xnosql/player/update`, player)
-                // console.log(res)
+                console.log(res)
             }
         }
     }
