@@ -4,8 +4,8 @@ class Main {
 	constructor() {
 		//挂载状态管理
 		Laya.store = store
-		Laya.store.actions.login({ _id: 1, nickname: '老李' })
-		// Laya.store.actions.getUser({ username: 'cheney' })
+		Laya.store.actions.login({ nickname: '老李' })
+		// Laya.store.actions.upload({ _id: '', nickname: 'cheney' })
 		//根据IDE设置初始化引擎		
 		if (window["Laya3D"]) Laya3D.init(GameConfig.width, GameConfig.height);
 		else Laya.init(GameConfig.width, GameConfig.height, Laya["WebGL"]);
