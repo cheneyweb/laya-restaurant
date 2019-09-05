@@ -1,6 +1,11 @@
 ﻿import GameConfig from "./GameConfig";
+import store from "./util/Store";
 class Main {
 	constructor() {
+		//挂载状态管理
+		Laya.store = store
+		// Laya.store.actions.login({ username: 'cheney', password: '123456' })
+		// Laya.store.actions.getUser({ username: 'cheney' })
 		//根据IDE设置初始化引擎		
 		if (window["Laya3D"]) Laya3D.init(GameConfig.width, GameConfig.height);
 		else Laya.init(GameConfig.width, GameConfig.height, Laya["WebGL"]);
