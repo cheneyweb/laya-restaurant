@@ -1,135 +1,91 @@
 let user = {
-    money: 500,
-    star: 20,
+    money: 500,// 玩家余额
+    star: 20,//玩家评价
     feePack: {
-        arr: [1, 1, 2, 0],
-        money: 500
+        arr: [1, 1, 2, 0],//小费罐解锁与套用
+        money: 500//小费罐剩余金额
     },
-    feePlus: 50,
-    table1: {
-        arr: [1, 1, 2, 0],
-        money: 500
-    },
-    table2: {
-        arr: [1, 1, 2, 0],
-        money: 500
-    },
-    table3: {
-        arr: [1, 1, 2, 0],
-        money: 500
-    },
-    table4: {
-        arr: [1, 1, 2, 0],
-        money: 500
-    },
-    table5: {
-        arr: [1, 1, 2, 0],
-        money: 500
-    },
-    table6: {
-        arr: [1, 1, 2, 0],
-        money: 500
-    },
-    plants: {
-        arr: [1, 1, 2, 0]
-    },
-    dessert: {
-        arr: [1, 1, 2, 0]
-    },
-    mat: {
-        arr: [1, 1, 2, 0]
-    },
-    curtain: {
-        arr: [1, 1, 2, 0]
-    },
-    ornaments: {
-        arr: [1, 1, 2, 0]
-    },
-    coffee: {
-        arr: [1, 1, 2, 0]
-    },
-    wine: {
-        arr: [1, 1, 2, 0]
-    },
-    stove1: {
-        arr: [1, 1, 2, 0]
-    },
-    stove2: {
-        arr: [1, 1, 2, 0]
-    },
-    stove3: {
-        arr: [1, 1, 2, 0]
-    },
-    stove4: {
-        arr: [1, 1, 2, 0]
-    },
-    stove5: {
-        arr: [1, 1, 2, 0]
-    },
-    stove6: {
-        arr: [1, 1, 2, 0]
-    },
-    window: {
-        arr: [1, 1, 2, 0]
-    },
-    trash: {
-        arr: [1, 1, 2, 0]
-    },
-    cupboard: {
-        arr: [1, 1, 2, 0]
-    },
-    goods: {
-        arr: [1, 1, 2, 0]
-    },
-    oven: {
-        arr: [1, 1, 2, 0],
-        money: 500
-    },
-    kitchenOrnaments: {
-        arr: [1, 1, 2, 0]
-    },
-    cabinet: {
-        arr: [1, 1, 2, 0],
-        money: 500
-    },
-    iceBox: {
-        arr: [1, 1, 2, 0]
-    },
-    worktop: {
-        arr: [1, 1, 2, 0],
-        money: 500
-    },
-    visitor: {
-        arr: [1, 2, 3, 5, 8, 9, 11, 25, 63]
-    },
-    food: {
-        arr: [1, 1, 2, 1, 1, 1, 1, 2, 1, 1, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0]
-    },
-    employee1: 1,
-    employee2: 1,
-    employee3: 1,
-    employee4: 1,
-    employee5: 2,
-    employee6: 2,
-    employee7: 3,
-    employee8: 3,
-    employee9: 4,
-    employee10: 4,
-    mission:
+    feePlus: 50,//每分钟小费增加
+    tableArr:[
         {
-            arr: [1, 15, 65, 21, 5]
+            arr: [1, 1, 2, 0],//1号桌登记与套用
+            money: 500//1号桌剩余金额
+        }, 
+        {
+            arr: [1, 1, 2, 0],//2号桌
+            money: 500
         },
-    missionDone: {
-        arr: [1, 2, 1, 0, 0]
+        {
+            arr: [1, 1, 2, 0],
+            money: 500
+        },
+        {
+            arr: [1, 1, 2, 0],
+            money: 500
+        },
+        {
+            arr: [1, 1, 2, 0],
+            money: 500
+        },
+        {
+            arr: [1, 1, 2, 0],
+            money: 500
+        }
+    ],
+    plants: [1, 1, 2, 0],//绿植解锁与套用
+    dessert: [1, 1, 2, 0],//甜点解锁与套用
+    mat: [1, 1, 2, 0],//地垫解锁与套用
+    curtain: [1, 1, 2, 0],//门帘解锁与套用
+    ornaments: [1, 1, 2, 0],//墙饰解锁与套用
+    coffee: [1, 1, 2, 0],//咖啡解锁与套用
+    wine: [1, 1, 2, 0],//酒柜解锁与套用
+    stoveArr: [
+        {
+            arr: [1, 1, 2, 0]//1号炉解锁与套用
+        },
+        {
+            arr: [1, 1, 2, 0]//2号炉
+        },
+        {
+            arr: [1, 1, 2, 0]
+        },
+        {
+            arr: [1, 1, 2, 0]
+        },
+        {
+            arr: [1, 1, 2, 0]
+        },
+        {
+            arr: [1, 1, 2, 0]
+        }
+    ], 
+    window: [1, 1, 2, 0],//窗户解锁与套用
+    trash: [1, 1, 2, 0],//垃圾桶解锁与套用
+    cupboard: [1, 1, 2, 0],//碗柜解锁与套用
+    goods: [1, 1, 2, 0],//货物解锁与套用
+    oven: {
+        arr: [1, 1, 2, 0],//火炉解锁与套用
+        money: 500//火炉剩余金额
     },
-    achievement: {
-        arr: [1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2]
+    kitchenOrnaments: [1, 1, 2, 0],//厨房墙饰解锁与套用
+    cabinet: {
+        arr: [1, 1, 2, 0],//橱柜解锁与套用
+        money: 500//橱柜剩余金额
     },
-    propagate: {
-        arr: [1, 1, 2, 0]
+    iceBox: [1, 1, 2, 0],//冰箱解锁与套用
+    worktop: {
+        arr: [1, 1, 2, 0],//料理台解锁与套用
+        money: 500//料理台剩余金额
     },
+    visitor:  [1, 2, 3, 5, 8, 9, 11, 25, 63],//顾客解锁序号    
+    food: [1, 1, 2, 1, 1, 1, 1, 2, 1, 1, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0],//食物解锁序号
+    employee1: [1,1,1,2,2,3,4,5,0],//员工解锁与等级
+    mission:[1, 15, 65, 21, 5],//已领取的每日任务序号
+    missionDone: [1, 2, 1, 0, 0],//每日任务完成与领取状态
+    achievement: [1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2],//成就完成与领取状态
+    propagate: [1, 1, 2, 0],//已解锁与套用的宣传手段
     longTimeMission: {
-        mission: [1, 2, 3],
-        remainTime: [23300, 404, 223]
+        mission: [1, 2, 3],//长期任务进行中序号
+        remainTime: [23300, 404, 223]//长期任务剩余时间
     }
 }
