@@ -8,7 +8,7 @@ router.post('/login', async (ctx, next) => {
     let inparam = ctx.request.body
     let mongodb = global.mongodb
     result = await mongodb.collection('player').insertOne(inparam)
-    ctx.body = { err: fasle }
+    ctx.body = { err: false }
     // let player = await mongodb.collection('player').findOne({ username: inparam.username }, { projection: { username: 1, password: 1 } })
     // if (!player) {
     //     ctx.body = { err: true, res: '帐号不存在' }
