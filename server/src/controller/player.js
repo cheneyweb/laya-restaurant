@@ -14,12 +14,12 @@ router.post('/login', async (ctx, next) => {
         player = await mongodb.collection('player').findOne({ _id: inparam._id })
         if (!player) {
             delete inparam._id
-            let res = await mongodb.collection('player').insertOne(inparam)
-            console.log(res)
+            res = await mongodb.collection('player').insertOne(inparam)
+            player._id = res.insertedId
         }
     } else {
         let res = await mongodb.collection('player').insertOne(inparam)
-        console.log(res)
+        player._id = res.insertedId
     }
     ctx.body = player
 })
