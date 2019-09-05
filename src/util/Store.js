@@ -64,7 +64,7 @@ const store = new Store({
         async login() {
             let player = store.pGetItem('player') || store.state.player
             let res = await store.axios.post('/xserver/player/login', player)
-            console.log(res)            
+            console.log(res)
             store.state.player = res
             store.pSetItem('player', res)
         },
