@@ -2,11 +2,11 @@
     "x":0,
     "type":"Scene",
     "selectedBox":2,
-    "selecteID":7,
+    "selecteID":11,
     "searchKey":"Scene",
     "props":{"width":750,"viewport":"0,0,750,1334","sceneColor":"#000000","runtime":"view/GameView.js","height":1334},
     "nodeParent":-1,
-    "maxID":9,
+    "maxID":23,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -17,10 +17,10 @@
         {
             "x":15,
             "type":"Sprite",
-            "searchKey":"Sprite,sceneCanvas",
-            "props":{"y":667,"x":375,"width":750,"pivotY":667,"pivotX":375,"name":"sceneCanvas","height":1334},
+            "searchKey":"Sprite,sceneCamera",
+            "props":{"y":667,"x":375,"width":750,"runtime":"view/SceneCamera.js","pivotY":667,"pivotX":375,"name":"sceneCamera","height":1334},
             "nodeParent":2,
-            "label":"sceneCanvas",
+            "label":"sceneCamera",
             "isOpen":true,
             "isDirectory":true,
             "isAniNode":true,
@@ -49,18 +49,70 @@
         },
         {
             "x":15,
-            "type":"UIView",
-            "source":"GameUI.scene",
-            "searchKey":"UIView,gameUI",
-            "props":{"name":"gameUI"},
+            "type":"Box",
+            "selectedBox":11,
+            "selecteID":4,
+            "searchKey":"Box,GameUI",
+            "props":{"y":0,"x":0,"runtime":"view/GameUI.js","presetID":1,"preset":"laya/pages/prefab/GameUI.prefab","name":"GameUI"},
             "nodeParent":2,
-            "label":"gameUI",
-            "isDirectory":false,
+            "maxID":12,
+            "label":"GameUI",
+            "isOpen":false,
+            "isDirectory":true,
             "isAniNode":true,
-            "hasChild":false,
-            "compId":8,
+            "hasChild":true,
+            "compId":11,
             "child":[
-                ]
+                {
+                    "type":"Box",
+                    "searchKey":"Box,mapArrow",
+                    "props":{"presetID":2,"preset":"laya/pages/prefab/GameUI.prefab","name":"mapArrow"},
+                    "nodeParent":11,
+                    "label":"mapArrow",
+                    "isOpen":true,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":9,
+                    "child":[
+                        {
+                            "type":"Sprite",
+                            "searchKey":"Sprite",
+                            "props":{"presetID":3,"preset":"laya/pages/prefab/GameUI.prefab"},
+                            "nodeParent":9,
+                            "label":"leftArr",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":3,
+                            "child":[
+                                ]
+                        },
+                        {
+                            "type":"Sprite",
+                            "searchKey":"Sprite",
+                            "props":{"presetID":4,"preset":"laya/pages/prefab/GameUI.prefab"},
+                            "nodeParent":9,
+                            "label":"rightArr",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":4,
+                            "child":[
+                                ]
+                        }]
+                }],
+            "animations":[
+                {
+                    "nodes":[
+                        ],
+                    "name":"ani1",
+                    "id":1,
+                    "frameRate":24,
+                    "action":0
+                }],
+            "$HIDDEN":false
         }],
     "animations":[
         {
