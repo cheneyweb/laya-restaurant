@@ -11,6 +11,10 @@ router.post('/login', async (ctx, next) => {
     // 查询玩家是否存在，不存在则自动创建
     if (player._id) {
         player = await mongodb.collection('player').findOne({ _id: player._id })
+        if (!player) {
+            delete player._id
+            await mongodb.collection('player').insertOne(player)
+        }
     } else {
         await mongodb.collection('player').insertOne(player)
     }
