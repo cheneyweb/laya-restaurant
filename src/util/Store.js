@@ -5,7 +5,7 @@ class Axios {
     constructor() {
         this.xhr = new Laya.HttpRequest()
         this.xhr.http.timeout = 10000
-        this.domain = 'http://restaurant.xserver.top:3001'
+        this.domain = 'http://restaurant.xserver.top'
     }
     get(url) {
         return new Promise((resolve, reject) => {
