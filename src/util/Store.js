@@ -55,20 +55,31 @@ class Store {
  */
 const store = new Store({
     state: {
-        user: {}
+        player: { nickname: 'cheney' }
     },
     actions: {
         // 玩家登录
         async login(data) {
+            let player = this.pGetItem('player') || store.state.player
             let res = await store.axios.post('/xserver/player/login', data)
+            this.pSetItem('player', res)
             console.log(res)
         },
         // 上传存档
-        async upload(data) {
-            let res = await store.axios.post(`/xnosql/player/update`, data)
-            console.log(res)
+        async upload() {
+            let player = this.pGetItem('player')
+            if (player) {
+                player.nickname = 'cheney2'
+                let res = await store.axios.post(`/xnosql/player/update`, )
+                console.log(res)
+            }
         }
     }
 })
+
+// 每隔10秒上传存档
+setInterval(() => {
+    Laya.store.actions.upload()
+}, 10000)
 
 export default store
