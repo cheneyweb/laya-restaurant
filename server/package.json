@@ -4,14 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "setup": "pm2 deploy ecosystem.json production setup",
-    "deploy": "pm2 deploy ecosystem.json production",
-    "docker-build": "docker build -t cheney/x-texas ./",
-    "docker": "docker run -d -p 5000:5000 --name x-texas cheney/x-texas",
-    "docker-kill": "docker kill $(docker ps -a -q)",
-    "docker-rmc": "docker rm $(docker ps -a -q)",
-    "docker-rmn": "docker rmi $(docker images -q -f dangling=true)"
+    "start": "node app.js"
   },
   "author": "cheneyxu",
   "license": "ISC",
