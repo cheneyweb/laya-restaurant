@@ -55,7 +55,9 @@ class Store {
  */
 const store = new Store({
     state: {
-        player: { nickname: 'cheney' }
+        player: { nickname: 'cheney' },
+        EVENT_GOLEFT:"goleft",
+        EVENT_GORIGHT:"goright"
     },
     actions: {
         // 玩家登录

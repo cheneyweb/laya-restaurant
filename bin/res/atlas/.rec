@@ -1,3 +1,8 @@
 D .
-D sound
-D ui
+D img
+P E78A688B arr_left.png
+P 04C7DD87 arr_right.png
+P ECFDB229 food.png
+R CA167893 main_bg.jpg
+P 3DF32B36 oven.png
+P DFA28CA8 table.png

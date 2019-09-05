@@ -1,0 +1,1 @@
+{"type":"Image","props":{"y":0,"x":0,"width":124,"skin":"img/oven.png","presetID":1,"isPresetRoot":true,"height":129,"anchorY":0.5,"anchorX":0.5},"compId":70,"child":[{"type":"Image","props":{"y":54,"x":62,"width":42,"skin":"img/food.png","presetID":2,"height":35,"anchorY":0.5,"anchorX":0.5},"compId":73}],"loadList":["img/oven.png","img/food.png"],"loadList3D":[]}

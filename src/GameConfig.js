@@ -12,7 +12,7 @@ export default class GameConfig {
 }
 GameConfig.width = 750;
 GameConfig.height = 1334;
-GameConfig.scaleMode ="exactfit";
+GameConfig.scaleMode ="fixedwidth";
 GameConfig.screenMode = "vertical";
 GameConfig.alignV = "middle";
 GameConfig.alignH = "center";

@@ -1,0 +1,1 @@
+{"type":"Image","props":{"y":0,"x":0,"width":170,"skin":"img/table.png","presetID":1,"isPresetRoot":true,"height":196,"anchorY":0.5,"anchorX":0.5},"compId":16,"child":[{"type":"Sprite","props":{"y":55,"x":65,"width":42,"texture":"img/food.png","presetID":2,"pivotY":0.5,"pivotX":0.5,"height":35},"compId":17}],"loadList":["img/table.png","img/food.png"],"loadList3D":[]}
