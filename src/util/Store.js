@@ -71,7 +71,6 @@ const store = new Store({
         // 获取设备
         async device() {
             store.state.device = await store.axios.get('/xserver/device/query')
-            console.log(store.state.device)
         },
         // 上传存档
         async upload() {
