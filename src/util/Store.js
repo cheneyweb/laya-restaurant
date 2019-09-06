@@ -4,8 +4,8 @@
 class Axios {
     constructor() {
         new Laya.HttpRequest()
-        // this.domain = 'http://restaurant.xserver.top'
-        this.domain = 'http://localhost:3001'
+        this.domain = 'http://restaurant.xserver.top'
+        // this.domain = 'http://localhost:3001'
     }
     get(url) {
         return new Promise((resolve, reject) => {
