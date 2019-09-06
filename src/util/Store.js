@@ -63,8 +63,8 @@ const store = new Store({
     state: {
         player: { nickname: 'cheney' },
         device: {},
-        EVENT_GOLEFT: "goleft",
-        EVENT_GORIGHT: "goright"
+        EVENT_MOVESCENE:'moveScene',
+        EVENT_UPDATEARROW:'upDateArrow'
     },
     actions: {
         // 玩家登录

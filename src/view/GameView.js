@@ -7,21 +7,28 @@ export default class GameView extends Laya.Scene {
         this.gameUI = null
         this.sceneCamera = null
     }
-    onEnable() {
+    onEnable () {
+        console.log("game")
         this.gameUI = this.getChildByName("GameUI")
         this.sceneCamera = this.getChildByName("sceneCamera")
         this.pAddEvent()
+
+        this.sceneCamera.init()
     }
-    onClosed() {
+    onClosed () {
     }
-    onMouseDown(e) {
+    onMouseDown (e) {
     }
-    pAddEvent(){
+    pAddEvent () {
         let state = Laya.store.state
-        this.gameUI.on(state.EVENT_GOLEFT,this,this.pMoveScene,[state.EVENT_GOLEFT])
-        this.gameUI.on(state.EVENT_GORIGHT,this,this.pMoveScene,[state.EVENT_GORIGHT])
+        this.gameUI.on(state.EVENT_MOVESCENE, this, this.pMoveScene)
+        this.sceneCamera.on(state.EVENT_UPDATEARROW, this, this.pUpDateArrow)
     }
-    pMoveScene(e){
+    pMoveScene (e) {
+        console.log(e)
         this.sceneCamera.moveScene(e)
+    }
+    pUpDateArrow (e) {
+        this.gameUI.upDateArrow(e)
     }
 }

@@ -4,24 +4,27 @@ export default class GameUI extends Laya.Box {
         super();
     }
 
-    onEnable() {
+    onEnable () {
+        this.mapArrow = this.getChildByName("mapArrow"),
+        this.leftArr = this.mapArrow.getChildByName("leftArr"),
+        this.rightArr = this.mapArrow.getChildByName("rightArr")
         this.pAddEvent()
     }
 
-    onDisable() {
+    onDisable () {
     }
 
-    pAddEvent() {
-        let state = Laya.store.state,
-            mapArrow = this.getChildByName("mapArrow"),
-            leftArr = mapArrow.getChildByName("leftArr"),
-            rightArr = mapArrow.getChildByName("rightArr")
-        leftArr.on("click",this,this.pSendEvent,[state.EVENT_GOLEFT])
-        rightArr.on("click",this,this.pSendEvent,[state.EVENT_GORIGHT])
-        
+    upDateArrow (mapNav) {
+        this.leftArr.visible = mapNav.left
+        this.rightArr.visible = mapNav.right
     }
-    pSendEvent(type){
-        console.log(type)
-        this.event(type)
+    pAddEvent () {
+        this.leftArr.on("click", this, this.pSendArrowEvent, ["left"])
+        this.rightArr.on("click", this, this.pSendArrowEvent, ["right"])
+
+    }
+    pSendArrowEvent (direction) {
+        console.log(direction)
+        this.event(Laya.store.state.EVENT_MOVESCENE, direction)
     }
 }
