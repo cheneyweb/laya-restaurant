@@ -69,10 +69,10 @@ const store = new Store({
             store.pSetItem('player', res)
         },
         // 获取设备
-        async device() {
-            store.state.device = await store.axios.get('/xserver/device/query')
-            console.log(store.state.device)
-        },
+        // async deviceQuery() {
+        //     store.state.device = await store.axios.get('/xserver/device/query')
+        //     console.log(store.state.device)
+        // },
         // 上传存档
         async upload() {
             let player = store.pGetItem('player')
