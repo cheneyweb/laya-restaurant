@@ -5,7 +5,8 @@ class Axios {
     constructor() {
         this.xhr = new Laya.HttpRequest()
         this.xhr.http.timeout = 10000
-        this.domain = 'http://restaurant.xserver.top'
+        // this.domain = 'http://restaurant.xserver.top'
+        this.domain = 'http://localhost:3001'        
     }
     get(url) {
         return new Promise((resolve, reject) => {
@@ -64,15 +65,14 @@ const store = new Store({
         // 玩家登录
         async login() {
             let player = store.pGetItem('player') || store.state.player
-            let res = await store.axios.post('/xserver/player/login', player)
-            store.state.player = res
-            store.pSetItem('player', res)
+            store.state.player = await store.axios.post('/xserver/player/login', player)
+            store.pSetItem('player', store.state.player)
         },
         // 获取设备
-        // async deviceQuery() {
-        //     store.state.device = await store.axios.get('/xserver/device/query')
-        //     console.log(store.state.device)
-        // },
+        async deviceQuery() {
+            store.state.device = await store.axios.get('/xserver/device/query')
+            console.log(store.state.device)
+        },
         // 上传存档
         async upload() {
             let player = store.pGetItem('player')
