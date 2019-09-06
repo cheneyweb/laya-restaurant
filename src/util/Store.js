@@ -56,8 +56,9 @@ class Store {
 const store = new Store({
     state: {
         player: { nickname: 'cheney' },
-        EVENT_GOLEFT:"goleft",
-        EVENT_GORIGHT:"goright"
+        device: {},
+        EVENT_GOLEFT: "goleft",
+        EVENT_GORIGHT: "goright"
     },
     actions: {
         // 玩家登录
@@ -66,6 +67,10 @@ const store = new Store({
             let res = await store.axios.post('/xserver/player/login', player)
             store.state.player = res
             store.pSetItem('player', res)
+        },
+        // 获取设备
+        async device() {
+            store.state.device = await store.axios.get('/xserver/device/query')
         },
         // 上传存档
         async upload() {
