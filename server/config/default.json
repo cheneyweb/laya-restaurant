@@ -16,8 +16,8 @@
         "tokenname": "token",
         "pass": [
             "/xserver/player/login",
-            "/xserver/device/query",
-            "/xnosql/player/update"
+            "/xnosql/player/update",
+            "/xserver/device/query"
         ],
         "role":{
             "player":[".*"]
