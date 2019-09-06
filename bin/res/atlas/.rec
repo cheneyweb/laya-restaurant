@@ -2,6 +2,8 @@ D .
 D img
 P E78A688B arr_left.png
 P 04C7DD87 arr_right.png
+R D4809D65 bg_kitchen.png
+R 133A649A bg_mainHall.png
 P ECFDB229 food.png
 R CA167893 main_bg.jpg
 P 3DF32B36 oven.png

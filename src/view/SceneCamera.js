@@ -37,7 +37,7 @@ export default class SceneCamera extends Laya.Sprite {
                     return
                 }
                 this.mapPos[1] -= 1
-                Tween.to(this.mainSence, { x: this.mainSence.x + 750 }, 500, Ease.quadOut, Handler.create(this, this.pMoveEnd))
+                Tween.to(this.mainSence, { x: this.mainSence.x + 800 }, 500, Ease.quadOut, Handler.create(this, this.pMoveEnd))
                 break;
             case "right":
                 if (!this.mapNav.right) {
@@ -45,7 +45,7 @@ export default class SceneCamera extends Laya.Sprite {
                     return
                 }
                 this.mapPos[1] += 1
-                Tween.to(this.mainSence, { x: this.mainSence.x - 750 }, 500, Ease.quadOut, Handler.create(this, this.pMoveEnd))
+                Tween.to(this.mainSence, { x: this.mainSence.x - 800 }, 500, Ease.quadOut, Handler.create(this, this.pMoveEnd))
                 break;
             default:
                 break;
