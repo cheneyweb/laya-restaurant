@@ -5,7 +5,6 @@ class Main {
 		//挂载状态管理
 		Laya.store = store
 		Laya.store.actions.login()
-		Laya.store.actions.device()
 		//根据IDE设置初始化引擎		
 		if (window["Laya3D"]) Laya3D.init(GameConfig.width, GameConfig.height);
 		else Laya.init(GameConfig.width, GameConfig.height, Laya["WebGL"]);
