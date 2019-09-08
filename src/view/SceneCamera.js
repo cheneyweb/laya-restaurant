@@ -1,8 +1,7 @@
-export default class SceneCamera extends Laya.Sprite {
+export default class SceneCamera extends Laya.Box {
 
     constructor() {
         super();
-        this.mainSence = null
         this.mapData = [        //0为不开放不可进入，1为可进入
             [1, 1],
             [0, 0]
@@ -10,9 +9,9 @@ export default class SceneCamera extends Laya.Sprite {
         this.mapPos = [0, 0]    //[0]为1维层级，[1]为2维索引
         this.mapNav = { left: false, right: false, top: false, bottom: false }
         this.onMove = false     //是否正在移动场景
+        this.moveWidth = 750 + 80
     }
     onEnable () {
-        this.mainSence = this.getChildByName("mainSence")
     }
     onDisable () {
     }
@@ -37,7 +36,7 @@ export default class SceneCamera extends Laya.Sprite {
                     return
                 }
                 this.mapPos[1] -= 1
-                Tween.to(this.mainSence, { x: this.mainSence.x + 800 }, 500, Ease.quadOut, Handler.create(this, this.pMoveEnd))
+                Tween.to(this.mainScene, { x: this.mainScene.x + this.moveWidth }, 500, Ease.quadOut, Handler.create(this, this.pMoveEnd))
                 break;
             case "right":
                 if (!this.mapNav.right) {
@@ -45,7 +44,7 @@ export default class SceneCamera extends Laya.Sprite {
                     return
                 }
                 this.mapPos[1] += 1
-                Tween.to(this.mainSence, { x: this.mainSence.x - 800 }, 500, Ease.quadOut, Handler.create(this, this.pMoveEnd))
+                Tween.to(this.mainScene, { x: this.mainScene.x - this.moveWidth }, 500, Ease.quadOut, Handler.create(this, this.pMoveEnd))
                 break;
             default:
                 break;

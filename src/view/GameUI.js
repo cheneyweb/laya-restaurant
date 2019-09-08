@@ -1,26 +1,31 @@
-export default class GameUI extends Laya.Box {
+export default class GameUI extends Laya.View {
 
     constructor() {
         super();
     }
 
     onEnable () {
-        this.mapArrow = this.getChildByName("mapArrow"),
-        this.leftArr = this.mapArrow.getChildByName("leftArr"),
-        this.rightArr = this.mapArrow.getChildByName("rightArr")
-        this.pAddEvent()
     }
 
     onDisable () {
     }
+    init(){
+        console.log(this)
+        console.log(this.ArrowBox)
+        this.ArrowBox = this.getChildByName("ArrowBox")
+        console.log(this.ArrowBox)
+        this.LeftArrow = this.getChildByName("LeftArrow")
+        this.RightArrow = this.getChildByName("RightArrow")
+        this.pAddEvent()
+    }
 
     upDateArrow (mapNav) {
-        this.leftArr.visible = mapNav.left
-        this.rightArr.visible = mapNav.right
+        this.LeftArrow.visible = mapNav.left
+        this.RightArrow.visible = mapNav.right
     }
     pAddEvent () {
-        this.leftArr.on("click", this, this.pSendArrowEvent, ["left"])
-        this.rightArr.on("click", this, this.pSendArrowEvent, ["right"])
+        this.LeftArrow.on("click", this, this.pSendArrowEvent, ["left"])
+        this.RightArrow.on("click", this, this.pSendArrowEvent, ["right"])
 
     }
     pSendArrowEvent (direction) {
