@@ -16,6 +16,8 @@ export default class SceneCamera extends Laya.Box {
     onDisable () {
     }
     init () {
+        console.log(this)
+        this.mainScene = this.getChildByName("mainScene")
         this.pUpdateMapNav()
     }
     moveScene (direction) {
