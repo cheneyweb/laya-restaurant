@@ -2,6 +2,7 @@
 import GameView from "./view/GameView"
 import SceneCamera from "./view/SceneCamera"
 import GameUI from "./view/GameUI"
+import Test from "./script/Test"
 
 export default class GameConfig {
     static init() {
@@ -10,6 +11,7 @@ export default class GameConfig {
 		reg("view/GameView.js",GameView);
 		reg("view/SceneCamera.js",SceneCamera);
 		reg("view/GameUI.js",GameUI);
+		reg("script/Test.js",Test);
     }
 }
 GameConfig.width = 750;

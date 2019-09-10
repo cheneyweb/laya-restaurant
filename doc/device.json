@@ -13,7 +13,7 @@
     "moneyTimer": 0,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "feePack_1_Icon",
+    "icon": "Icon_feePack_1",
     "prefab": "feePack_1"
   },
   {
@@ -30,7 +30,7 @@
     "moneyTimer": 0,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "feePack_2_Icon",
+    "icon": "Icon_feePack_2",
     "prefab": "feePack_2"
   },
   {
@@ -47,7 +47,7 @@
     "moneyTimer": 0,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "feePack_3_Icon",
+    "icon": "Icon_feePack_3",
     "prefab": "feePack_3"
   },
   {
@@ -64,7 +64,7 @@
     "moneyTimer": 0,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "feePack_4_Icon",
+    "icon": "Icon_feePack_4",
     "prefab": "feePack_4"
   },
   {
@@ -81,7 +81,7 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "table1_1_Icon",
+    "icon": "Icon_table1_1",
     "prefab": "table1_1"
   },
   {
@@ -98,7 +98,7 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "table1_2_Icon",
+    "icon": "Icon_table1_2",
     "prefab": "table1_2"
   },
   {
@@ -115,7 +115,7 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "table1_3_Icon",
+    "icon": "Icon_table1_3",
     "prefab": "table1_3"
   },
   {
@@ -132,7 +132,7 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "table1_4_Icon",
+    "icon": "Icon_table1_4",
     "prefab": "table1_4"
   },
   {
@@ -149,8 +149,8 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "table2_1_Icon",
-    "prefab": "table2_1"
+    "icon": "Icon_table1_1",
+    "prefab": "table1_1"
   },
   {
     "index": 10,
@@ -166,8 +166,8 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "table2_2_Icon",
-    "prefab": "table2_2"
+    "icon": "Icon_table1_2",
+    "prefab": "table1_2"
   },
   {
     "index": 11,
@@ -183,8 +183,8 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "table2_3_Icon",
-    "prefab": "table2_3"
+    "icon": "Icon_table1_3",
+    "prefab": "table1_3"
   },
   {
     "index": 12,
@@ -200,8 +200,8 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "table2_4_Icon",
-    "prefab": "table2_4"
+    "icon": "Icon_table1_4",
+    "prefab": "table1_4"
   },
   {
     "index": 13,
@@ -217,8 +217,8 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "table3_1_Icon",
-    "prefab": "table3_1"
+    "icon": "Icon_table1_1",
+    "prefab": "table1_1"
   },
   {
     "index": 14,
@@ -234,8 +234,8 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "table3_2_Icon",
-    "prefab": "table3_2"
+    "icon": "Icon_table1_2",
+    "prefab": "table1_2"
   },
   {
     "index": 15,
@@ -251,8 +251,8 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "table3_3_Icon",
-    "prefab": "table3_3"
+    "icon": "Icon_table1_3",
+    "prefab": "table1_3"
   },
   {
     "index": 16,
@@ -268,8 +268,8 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "table3_4_Icon",
-    "prefab": "table3_4"
+    "icon": "Icon_table1_4",
+    "prefab": "table1_4"
   },
   {
     "index": 17,
@@ -285,8 +285,8 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "table4_1_Icon",
-    "prefab": "table4_1"
+    "icon": "Icon_table1_1",
+    "prefab": "table1_1"
   },
   {
     "index": 18,
@@ -302,8 +302,8 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "table4_2_Icon",
-    "prefab": "table4_2"
+    "icon": "Icon_table1_2",
+    "prefab": "table1_2"
   },
   {
     "index": 19,
@@ -319,8 +319,8 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "table4_3_Icon",
-    "prefab": "table4_3"
+    "icon": "Icon_table1_3",
+    "prefab": "table1_3"
   },
   {
     "index": 20,
@@ -336,8 +336,8 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "table4_4_Icon",
-    "prefab": "table4_4"
+    "icon": "Icon_table1_4",
+    "prefab": "table1_4"
   },
   {
     "index": 21,
@@ -353,8 +353,8 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "table5_1_Icon",
-    "prefab": "table5_1"
+    "icon": "Icon_table1_1",
+    "prefab": "table1_1"
   },
   {
     "index": 22,
@@ -370,8 +370,8 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "table5_2_Icon",
-    "prefab": "table5_2"
+    "icon": "Icon_table1_2",
+    "prefab": "table1_2"
   },
   {
     "index": 23,
@@ -387,8 +387,8 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "table5_3_Icon",
-    "prefab": "table5_3"
+    "icon": "Icon_table1_3",
+    "prefab": "table1_3"
   },
   {
     "index": 24,
@@ -404,8 +404,8 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "table5_4_Icon",
-    "prefab": "table5_4"
+    "icon": "Icon_table1_4",
+    "prefab": "table1_4"
   },
   {
     "index": 25,
@@ -421,8 +421,8 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "table6_1_Icon",
-    "prefab": "table6_1"
+    "icon": "Icon_table1_1",
+    "prefab": "table1_1"
   },
   {
     "index": 26,
@@ -438,8 +438,8 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "table6_2_Icon",
-    "prefab": "table6_2"
+    "icon": "Icon_table1_2",
+    "prefab": "table1_2"
   },
   {
     "index": 27,
@@ -455,8 +455,8 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "table6_3_Icon",
-    "prefab": "table6_3"
+    "icon": "Icon_table1_3",
+    "prefab": "table1_3"
   },
   {
     "index": 28,
@@ -472,8 +472,8 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "table6_4_Icon",
-    "prefab": "table6_4"
+    "icon": "Icon_table1_4",
+    "prefab": "table1_4"
   },
   {
     "index": 29,
@@ -489,7 +489,7 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "plants_1_Icon",
+    "icon": "Icon_plants_1",
     "prefab": "plants_1"
   },
   {
@@ -506,7 +506,7 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "plants_2_Icon",
+    "icon": "Icon_plants_2",
     "prefab": "plants_2"
   },
   {
@@ -523,7 +523,7 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "plants_3_Icon",
+    "icon": "Icon_plants_3",
     "prefab": "plants_3"
   },
   {
@@ -540,7 +540,7 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "plants_4_Icon",
+    "icon": "Icon_plants_4",
     "prefab": "plants_4"
   },
   {
@@ -557,7 +557,7 @@
     "moneyTimer": 30,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "dessert_1_Icon",
+    "icon": "Icon_dessert_1",
     "prefab": "dessert_1"
   },
   {
@@ -574,7 +574,7 @@
     "moneyTimer": 30,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "dessert_2_Icon",
+    "icon": "Icon_dessert_2",
     "prefab": "dessert_2"
   },
   {
@@ -591,7 +591,7 @@
     "moneyTimer": 30,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "dessert_3_Icon",
+    "icon": "Icon_dessert_3",
     "prefab": "dessert_3"
   },
   {
@@ -608,7 +608,7 @@
     "moneyTimer": 30,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "dessert_4_Icon",
+    "icon": "Icon_dessert_4",
     "prefab": "dessert_4"
   },
   {
@@ -625,7 +625,7 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "mat_1_Icon",
+    "icon": "Icon_mat_1",
     "prefab": "mat_1"
   },
   {
@@ -642,7 +642,7 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "mat_2_Icon",
+    "icon": "Icon_mat_2",
     "prefab": "mat_2"
   },
   {
@@ -659,7 +659,7 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "mat_3_Icon",
+    "icon": "Icon_mat_3",
     "prefab": "mat_3"
   },
   {
@@ -676,7 +676,7 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "mat_4_Icon",
+    "icon": "Icon_mat_4",
     "prefab": "mat_4"
   },
   {
@@ -693,7 +693,7 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "curtain_1_Icon",
+    "icon": "Icon_curtain_1",
     "prefab": "curtain_1"
   },
   {
@@ -710,7 +710,7 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "curtain_2_Icon",
+    "icon": "Icon_curtain_2",
     "prefab": "curtain_2"
   },
   {
@@ -727,7 +727,7 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "curtain_3_Icon",
+    "icon": "Icon_curtain_3",
     "prefab": "curtain_3"
   },
   {
@@ -744,7 +744,7 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "curtain_4_Icon",
+    "icon": "Icon_curtain_4",
     "prefab": "curtain_4"
   },
   {
@@ -761,7 +761,7 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "ornaments_1_Icon",
+    "icon": "Icon_ornaments_1",
     "prefab": "ornaments_1"
   },
   {
@@ -778,7 +778,7 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "ornaments_2_Icon",
+    "icon": "Icon_ornaments_2",
     "prefab": "ornaments_2"
   },
   {
@@ -795,7 +795,7 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "ornaments_3_Icon",
+    "icon": "Icon_ornaments_3",
     "prefab": "ornaments_3"
   },
   {
@@ -812,7 +812,7 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "ornaments_4_Icon",
+    "icon": "Icon_ornaments_4",
     "prefab": "ornaments_4"
   },
   {
@@ -829,7 +829,7 @@
     "moneyTimer": 30,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "coffee_1_Icon",
+    "icon": "Icon_coffee_1",
     "prefab": "coffee_1"
   },
   {
@@ -846,7 +846,7 @@
     "moneyTimer": 30,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "coffee_2_Icon",
+    "icon": "Icon_coffee_2",
     "prefab": "coffee_2"
   },
   {
@@ -863,7 +863,7 @@
     "moneyTimer": 30,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "coffee_3_Icon",
+    "icon": "Icon_coffee_3",
     "prefab": "coffee_3"
   },
   {
@@ -880,7 +880,7 @@
     "moneyTimer": 30,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "coffee_4_Icon",
+    "icon": "Icon_coffee_4",
     "prefab": "coffee_4"
   },
   {
@@ -897,7 +897,7 @@
     "moneyTimer": 30,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "wine_1_Icon",
+    "icon": "Icon_wine_1",
     "prefab": "wine_1"
   },
   {
@@ -914,7 +914,7 @@
     "moneyTimer": 30,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "wine_2_Icon",
+    "icon": "Icon_wine_2",
     "prefab": "wine_2"
   },
   {
@@ -931,7 +931,7 @@
     "moneyTimer": 30,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "wine_3_Icon",
+    "icon": "Icon_wine_3",
     "prefab": "wine_3"
   },
   {
@@ -948,7 +948,7 @@
     "moneyTimer": 30,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "wine_4_Icon",
+    "icon": "Icon_wine_4",
     "prefab": "wine_4"
   },
   {
@@ -965,7 +965,7 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "stove1_1_Icon",
+    "icon": "Icon_stove1_1",
     "prefab": "stove1_1"
   },
   {
@@ -982,7 +982,7 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "stove1_2_Icon",
+    "icon": "Icon_stove1_2",
     "prefab": "stove1_2"
   },
   {
@@ -999,7 +999,7 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "stove1_3_Icon",
+    "icon": "Icon_stove1_3",
     "prefab": "stove1_3"
   },
   {
@@ -1016,7 +1016,7 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "stove1_4_Icon",
+    "icon": "Icon_stove1_4",
     "prefab": "stove1_4"
   },
   {
@@ -1033,8 +1033,8 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "stove2_1_Icon",
-    "prefab": "stove2_1"
+    "icon": "Icon_stove1_1",
+    "prefab": "stove1_1"
   },
   {
     "index": 62,
@@ -1050,8 +1050,8 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "stove2_2_Icon",
-    "prefab": "stove2_2"
+    "icon": "Icon_stove1_2",
+    "prefab": "stove1_2"
   },
   {
     "index": 63,
@@ -1067,8 +1067,8 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "stove2_3_Icon",
-    "prefab": "stove2_3"
+    "icon": "Icon_stove1_3",
+    "prefab": "stove1_3"
   },
   {
     "index": 64,
@@ -1084,8 +1084,8 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "stove2_4_Icon",
-    "prefab": "stove2_4"
+    "icon": "Icon_stove1_4",
+    "prefab": "stove1_4"
   },
   {
     "index": 65,
@@ -1101,8 +1101,8 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "stove3_1_Icon",
-    "prefab": "stove3_1"
+    "icon": "Icon_stove1_1",
+    "prefab": "stove1_1"
   },
   {
     "index": 66,
@@ -1118,8 +1118,8 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "stove3_2_Icon",
-    "prefab": "stove3_2"
+    "icon": "Icon_stove1_2",
+    "prefab": "stove1_2"
   },
   {
     "index": 67,
@@ -1135,8 +1135,8 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "stove3_3_Icon",
-    "prefab": "stove3_3"
+    "icon": "Icon_stove1_3",
+    "prefab": "stove1_3"
   },
   {
     "index": 68,
@@ -1152,8 +1152,8 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "stove3_4_Icon",
-    "prefab": "stove3_4"
+    "icon": "Icon_stove1_4",
+    "prefab": "stove1_4"
   },
   {
     "index": 69,
@@ -1169,8 +1169,8 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "stove4_1_Icon",
-    "prefab": "stove4_1"
+    "icon": "Icon_stove1_1",
+    "prefab": "stove1_1"
   },
   {
     "index": 70,
@@ -1186,8 +1186,8 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "stove4_2_Icon",
-    "prefab": "stove4_2"
+    "icon": "Icon_stove1_2",
+    "prefab": "stove1_2"
   },
   {
     "index": 71,
@@ -1203,8 +1203,8 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "stove4_3_Icon",
-    "prefab": "stove4_3"
+    "icon": "Icon_stove1_3",
+    "prefab": "stove1_3"
   },
   {
     "index": 72,
@@ -1220,8 +1220,8 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "stove4_4_Icon",
-    "prefab": "stove4_4"
+    "icon": "Icon_stove1_4",
+    "prefab": "stove1_4"
   },
   {
     "index": 73,
@@ -1237,8 +1237,8 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "stove5_1_Icon",
-    "prefab": "stove5_1"
+    "icon": "Icon_stove1_1",
+    "prefab": "stove1_1"
   },
   {
     "index": 74,
@@ -1254,8 +1254,8 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "stove5_2_Icon",
-    "prefab": "stove5_2"
+    "icon": "Icon_stove1_2",
+    "prefab": "stove1_2"
   },
   {
     "index": 75,
@@ -1271,8 +1271,8 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "stove5_3_Icon",
-    "prefab": "stove5_3"
+    "icon": "Icon_stove1_3",
+    "prefab": "stove1_3"
   },
   {
     "index": 76,
@@ -1288,8 +1288,8 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "stove5_4_Icon",
-    "prefab": "stove5_4"
+    "icon": "Icon_stove1_4",
+    "prefab": "stove1_4"
   },
   {
     "index": 77,
@@ -1305,8 +1305,8 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "stove6_1_Icon",
-    "prefab": "stove6_1"
+    "icon": "Icon_stove1_1",
+    "prefab": "stove1_1"
   },
   {
     "index": 78,
@@ -1322,8 +1322,8 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "stove6_2_Icon",
-    "prefab": "stove6_2"
+    "icon": "Icon_stove1_2",
+    "prefab": "stove1_2"
   },
   {
     "index": 79,
@@ -1339,8 +1339,8 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "stove6_3_Icon",
-    "prefab": "stove6_3"
+    "icon": "Icon_stove1_3",
+    "prefab": "stove1_3"
   },
   {
     "index": 80,
@@ -1356,8 +1356,8 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "stove6_4_Icon",
-    "prefab": "stove6_4"
+    "icon": "Icon_stove1_4",
+    "prefab": "stove1_4"
   },
   {
     "index": 81,
@@ -1373,7 +1373,7 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "window_1_Icon",
+    "icon": "Icon_window_1",
     "prefab": "window_1"
   },
   {
@@ -1390,7 +1390,7 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "window_2_Icon",
+    "icon": "Icon_window_2",
     "prefab": "window_2"
   },
   {
@@ -1407,7 +1407,7 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "window_3_Icon",
+    "icon": "Icon_window_3",
     "prefab": "window_3"
   },
   {
@@ -1424,7 +1424,7 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "window_4_Icon",
+    "icon": "Icon_window_4",
     "prefab": "window_4"
   },
   {
@@ -1441,7 +1441,7 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "trash_1_Icon",
+    "icon": "Icon_trash_1",
     "prefab": "trash_1"
   },
   {
@@ -1458,7 +1458,7 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "trash_2_Icon",
+    "icon": "Icon_trash_2",
     "prefab": "trash_2"
   },
   {
@@ -1475,7 +1475,7 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "trash_3_Icon",
+    "icon": "Icon_trash_3",
     "prefab": "trash_3"
   },
   {
@@ -1492,7 +1492,7 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "trash_4_Icon",
+    "icon": "Icon_trash_4",
     "prefab": "trash_4"
   },
   {
@@ -1509,7 +1509,7 @@
     "moneyTimer": 30,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "cupboard_1_Icon",
+    "icon": "Icon_cupboard_1",
     "prefab": "cupboard_1"
   },
   {
@@ -1526,7 +1526,7 @@
     "moneyTimer": 30,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "cupboard_2_Icon",
+    "icon": "Icon_cupboard_2",
     "prefab": "cupboard_2"
   },
   {
@@ -1543,7 +1543,7 @@
     "moneyTimer": 30,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "cupboard_3_Icon",
+    "icon": "Icon_cupboard_3",
     "prefab": "cupboard_3"
   },
   {
@@ -1560,7 +1560,7 @@
     "moneyTimer": 30,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "cupboard_4_Icon",
+    "icon": "Icon_cupboard_4",
     "prefab": "cupboard_4"
   },
   {
@@ -1577,7 +1577,7 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "goods_1_Icon",
+    "icon": "Icon_goods_1",
     "prefab": "goods_1"
   },
   {
@@ -1594,7 +1594,7 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "goods_2_Icon",
+    "icon": "Icon_goods_2",
     "prefab": "goods_2"
   },
   {
@@ -1611,7 +1611,7 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "goods_3_Icon",
+    "icon": "Icon_goods_3",
     "prefab": "goods_3"
   },
   {
@@ -1628,7 +1628,7 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "goods_4_Icon",
+    "icon": "Icon_goods_4",
     "prefab": "goods_4"
   },
   {
@@ -1645,7 +1645,7 @@
     "moneyTimer": 30,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "oven_1_Icon",
+    "icon": "Icon_oven_1",
     "prefab": "oven_1"
   },
   {
@@ -1662,7 +1662,7 @@
     "moneyTimer": 30,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "oven_2_Icon",
+    "icon": "Icon_oven_2",
     "prefab": "oven_2"
   },
   {
@@ -1679,7 +1679,7 @@
     "moneyTimer": 30,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "oven_3_Icon",
+    "icon": "Icon_oven_3",
     "prefab": "oven_3"
   },
   {
@@ -1696,7 +1696,7 @@
     "moneyTimer": 30,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "oven_4_Icon",
+    "icon": "Icon_oven_4",
     "prefab": "oven_4"
   },
   {
@@ -1713,7 +1713,7 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "kitchenOrnaments_1_Icon",
+    "icon": "Icon_kitchenOrnaments_1",
     "prefab": "kitchenOrnaments_1"
   },
   {
@@ -1730,7 +1730,7 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "kitchenOrnaments_2_Icon",
+    "icon": "Icon_kitchenOrnaments_2",
     "prefab": "kitchenOrnaments_2"
   },
   {
@@ -1747,7 +1747,7 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "kitchenOrnaments_3_Icon",
+    "icon": "Icon_kitchenOrnaments_3",
     "prefab": "kitchenOrnaments_3"
   },
   {
@@ -1764,7 +1764,7 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "kitchenOrnaments_4_Icon",
+    "icon": "Icon_kitchenOrnaments_4",
     "prefab": "kitchenOrnaments_4"
   },
   {
@@ -1781,7 +1781,7 @@
     "moneyTimer": 30,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "cabinet_1_Icon",
+    "icon": "Icon_cabinet_1",
     "prefab": "cabinet_1"
   },
   {
@@ -1798,7 +1798,7 @@
     "moneyTimer": 30,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "cabinet_2_Icon",
+    "icon": "Icon_cabinet_2",
     "prefab": "cabinet_2"
   },
   {
@@ -1815,7 +1815,7 @@
     "moneyTimer": 30,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "cabinet_3_Icon",
+    "icon": "Icon_cabinet_3",
     "prefab": "cabinet_3"
   },
   {
@@ -1832,7 +1832,7 @@
     "moneyTimer": 30,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "cabinet_4_Icon",
+    "icon": "Icon_cabinet_4",
     "prefab": "cabinet_4"
   },
   {
@@ -1849,7 +1849,7 @@
     "moneyTimer": 60,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "iceBox_1_Icon",
+    "icon": "Icon_iceBox_1",
     "prefab": "iceBox_1"
   },
   {
@@ -1866,7 +1866,7 @@
     "moneyTimer": 60,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "iceBox_2_Icon",
+    "icon": "Icon_iceBox_2",
     "prefab": "iceBox_2"
   },
   {
@@ -1883,7 +1883,7 @@
     "moneyTimer": 60,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "iceBox_3_Icon",
+    "icon": "Icon_iceBox_3",
     "prefab": "iceBox_3"
   },
   {
@@ -1900,7 +1900,7 @@
     "moneyTimer": 60,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "iceBox_4_Icon",
+    "icon": "Icon_iceBox_4",
     "prefab": "iceBox_4"
   },
   {
@@ -1917,7 +1917,7 @@
     "moneyTimer": 30,
     "starRequirement": 0,
     "desc": "一些描述",
-    "icon": "worktop_1_Icon",
+    "icon": "Icon_worktop_1",
     "prefab": "worktop_1"
   },
   {
@@ -1934,7 +1934,7 @@
     "moneyTimer": 30,
     "starRequirement": 10,
     "desc": "一些描述",
-    "icon": "worktop_2_Icon",
+    "icon": "Icon_worktop_2",
     "prefab": "worktop_2"
   },
   {
@@ -1951,7 +1951,7 @@
     "moneyTimer": 30,
     "starRequirement": 100,
     "desc": "一些描述",
-    "icon": "worktop_3_Icon",
+    "icon": "Icon_worktop_3",
     "prefab": "worktop_3"
   },
   {
@@ -1968,7 +1968,7 @@
     "moneyTimer": 30,
     "starRequirement": 1000,
     "desc": "一些描述",
-    "icon": "worktop_4_Icon",
+    "icon": "Icon_worktop_4",
     "prefab": "worktop_4"
   }
 ]

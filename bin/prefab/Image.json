@@ -1,0 +1,1 @@
+{"type":"Image","props":{"x":0,"y":0,"skin":"img/table.png","presetID":1,"isPresetRoot":true},"compId":30,"child":[{"type":"Image","props":{"x":256,"y":194,"skin":"img/food.png","presetID":2},"compId":31}],"loadList":["img/table.png","img/food.png"],"loadList3D":[]}

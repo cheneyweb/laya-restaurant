@@ -37,14 +37,13 @@
             "nodeParent":134,
             "maxID":30,
             "label":"mainHall",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":147,
             "child":[
                 {
-                    "x":30,
                     "type":"Texture",
                     "searchKey":"Texture",
                     "props":{"presetPre":"laya/pages/prefab/module/MainHall.prefab","presetIDPre":2,"presetID":32,"preset":"laya/pages/prefab/module/MainScene.prefab"},
@@ -58,7 +57,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "selectedBox":16,
                     "selecteID":17,
@@ -66,7 +64,7 @@
                     "props":{"presetPre":"laya/pages/prefab/module/MainHall.prefab","presetIDPre":3,"presetID":33,"preset":"laya/pages/prefab/module/MainScene.prefab"},
                     "nodeParent":147,
                     "maxID":18,
-                    "label":"Image(MainScene)",
+                    "label":"table1",
                     "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
@@ -97,7 +95,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "selectedBox":16,
                     "selecteID":17,
@@ -105,7 +102,7 @@
                     "props":{"presetPre":"laya/pages/prefab/module/MainHall.prefab","presetIDPre":5,"presetID":35,"preset":"laya/pages/prefab/module/MainScene.prefab"},
                     "nodeParent":147,
                     "maxID":18,
-                    "label":"Image(MainScene)",
+                    "label":"table2",
                     "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
@@ -136,7 +133,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "selectedBox":16,
                     "selecteID":17,
@@ -144,7 +140,7 @@
                     "props":{"presetPre":"laya/pages/prefab/module/MainHall.prefab","presetIDPre":7,"presetID":37,"preset":"laya/pages/prefab/module/MainScene.prefab"},
                     "nodeParent":147,
                     "maxID":18,
-                    "label":"Image(MainScene)",
+                    "label":"table3",
                     "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
@@ -152,7 +148,6 @@
                     "compId":153,
                     "child":[
                         {
-                            "x":45,
                             "type":"Sprite",
                             "searchKey":"Sprite",
                             "props":{"presetPre":"laya/pages/prefab/module/MainHall.prefab","presetIDPre":8,"presetID":38,"preset":"laya/pages/prefab/module/MainScene.prefab"},
@@ -176,7 +171,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "selectedBox":16,
                     "selecteID":17,
@@ -184,7 +178,7 @@
                     "props":{"presetPre":"laya/pages/prefab/module/MainHall.prefab","presetIDPre":9,"presetID":39,"preset":"laya/pages/prefab/module/MainScene.prefab"},
                     "nodeParent":147,
                     "maxID":18,
-                    "label":"Image(MainScene)",
+                    "label":"table4",
                     "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
@@ -215,7 +209,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "selectedBox":16,
                     "selecteID":17,
@@ -223,7 +216,7 @@
                     "props":{"presetPre":"laya/pages/prefab/module/MainHall.prefab","presetIDPre":11,"presetID":41,"preset":"laya/pages/prefab/module/MainScene.prefab"},
                     "nodeParent":147,
                     "maxID":18,
-                    "label":"Image(MainScene)",
+                    "label":"table5",
                     "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
@@ -254,7 +247,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "selectedBox":16,
                     "selecteID":17,
@@ -262,7 +254,7 @@
                     "props":{"presetPre":"laya/pages/prefab/module/MainHall.prefab","presetIDPre":13,"presetID":43,"preset":"laya/pages/prefab/module/MainScene.prefab"},
                     "nodeParent":147,
                     "maxID":18,
-                    "label":"Image(MainScene)",
+                    "label":"table6",
                     "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
@@ -300,7 +292,8 @@
                     "id":1,
                     "frameRate":24,
                     "action":0
-                }]
+                }],
+            "$HIDDEN":false
         },
         {
             "x":15,
@@ -311,14 +304,13 @@
             "nodeParent":134,
             "maxID":20,
             "label":"kitchen",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":161,
             "child":[
                 {
-                    "x":30,
                     "type":"Texture",
                     "searchKey":"Texture",
                     "props":{"presetPre":"laya/pages/prefab/module/Kitchen.prefab","presetIDPre":2,"presetID":46,"preset":"laya/pages/prefab/module/MainScene.prefab"},
@@ -332,7 +324,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"presetPre":"laya/pages/prefab/module/Kitchen.prefab","presetIDPre":3,"presetID":47,"preset":"laya/pages/prefab/module/MainScene.prefab"},
@@ -359,7 +350,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"presetPre":"laya/pages/prefab/module/Kitchen.prefab","presetIDPre":5,"presetID":49,"preset":"laya/pages/prefab/module/MainScene.prefab"},
@@ -386,7 +376,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"presetPre":"laya/pages/prefab/module/Kitchen.prefab","presetIDPre":7,"presetID":51,"preset":"laya/pages/prefab/module/MainScene.prefab"},
@@ -413,7 +402,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"presetPre":"laya/pages/prefab/module/Kitchen.prefab","presetIDPre":9,"presetID":53,"preset":"laya/pages/prefab/module/MainScene.prefab"},
@@ -440,7 +428,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"presetPre":"laya/pages/prefab/module/Kitchen.prefab","presetIDPre":11,"presetID":55,"preset":"laya/pages/prefab/module/MainScene.prefab"},
@@ -467,7 +454,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"presetPre":"laya/pages/prefab/module/Kitchen.prefab","presetIDPre":13,"presetID":57,"preset":"laya/pages/prefab/module/MainScene.prefab"},
@@ -501,7 +487,8 @@
                     "id":1,
                     "frameRate":24,
                     "action":0
-                }]
+                }],
+            "$HIDDEN":false
         }],
     "animations":[
         {
