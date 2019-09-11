@@ -1,0 +1,1 @@
+{"type":"Image","props":{"y":0,"x":0,"width":80,"skin":"img/customer.png","presetID":1,"isPresetRoot":true,"height":160,"anchorY":0.5,"anchorX":0.5},"compId":101,"child":[{"type":"Script","props":{"presetID":2,"runtime":"script/Customer.js"},"compId":102}],"loadList":["img/customer.png"],"loadList3D":[]}

@@ -2,11 +2,10 @@
     "x":0,
     "type":"Image",
     "selectedBox":70,
-    "selecteID":73,
     "searchKey":"Image",
     "props":{"y":0,"x":0,"width":200,"skin":"img/Icon_stove_1.png","presetPre":"laya/pages/prefab/device/Stove.prefab","presetIDPre":2,"presetID":1,"preset":"laya/pages/prefab/device/Stove.prefab","isPresetRoot":true,"height":200,"anchorY":0.5,"anchorX":0.5},
     "nodeParent":-1,
-    "maxID":74,
+    "maxID":75,
     "label":"Image(Stove)",
     "isOpen":true,
     "isDirectory":true,
@@ -25,6 +24,23 @@
             "isAniNode":true,
             "hasChild":false,
             "compId":73,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Script",
+            "switchAble":true,
+            "source":"src/script/Device.js",
+            "searchKey":"Script,Device",
+            "removeAble":true,
+            "props":{"presetID":3,"preset":"laya/pages/prefab/device/Stove.prefab","deviceType":"stove"},
+            "nodeParent":70,
+            "label":"Device",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":74,
             "child":[
                 ]
         }],

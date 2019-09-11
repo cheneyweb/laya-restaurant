@@ -21,7 +21,6 @@ export default class GameView extends Laya.Scene {
         this.sceneCamera.on(state.EVENT_UPDATEARROW, this, this.pUpDateArrow)
     }
     pMoveScene(e) {
-        console.log(e)
         this.sceneCamera.moveScene(e)
     }
     pUpDateArrow(e) {

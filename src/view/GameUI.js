@@ -1,7 +1,9 @@
+import deviceController from "../util/DeviceController";
 export default class GameUI extends Laya.View {
 
     constructor() {
         super();
+        this.loadScene('GameUI.scene')
     }
 
     onEnable () {
@@ -9,10 +11,7 @@ export default class GameUI extends Laya.View {
 
     onDisable () {
     }
-    init(){
-        this.arrowBox = this.getChildByName("arrowBox")
-        this.leftArrow = this.arrowBox.getChildByName("leftArrow")
-        this.rightArrow = this.arrowBox.getChildByName("rightArrow")
+    init () {
         this.pAddEvent()
     }
 
@@ -21,12 +20,16 @@ export default class GameUI extends Laya.View {
         this.rightArrow.visible = mapNav.right
     }
     pAddEvent () {
-        this.leftArrow.on("click", this, this.pSendArrowEvent, ["left"])
-        this.rightArrow.on("click", this, this.pSendArrowEvent, ["right"])
+        this.leftArrow.on('click', this, this.pSendArrowEvent, ['left'])
+        this.rightArrow.on('click', this, this.pSendArrowEvent, ['right'])
+        this.menu.on('click', this, this.pShowMenu)
 
     }
     pSendArrowEvent (direction) {
-        console.log(direction)
         this.event(Laya.store.state.EVENT_MOVESCENE, direction)
+    }
+    pShowMenu () {
+        console.log('menuClick')
+        deviceController.changeDevice('table1',2)
     }
 }

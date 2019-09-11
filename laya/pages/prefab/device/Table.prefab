@@ -3,9 +3,9 @@
     "type":"Image",
     "selectedBox":16,
     "searchKey":"Image",
-    "props":{"y":0,"x":0,"width":200,"skin":"img/Icon_table_1.png","presetPre":"laya/pages/prefab/DiningTable.prefab","presetIDPre":2,"presetID":1,"preset":"laya/pages/prefab/device/Table.prefab","isPresetRoot":true,"height":200,"anchorY":0.5,"anchorX":0.5},
+    "props":{"y":0,"x":0,"width":200,"skin":"img/Icon_table1_1.png","presetPre":"laya/pages/prefab/DiningTable.prefab","presetIDPre":2,"presetID":1,"preset":"laya/pages/prefab/device/Table.prefab","isPresetRoot":true,"height":200,"anchorY":0.5,"anchorX":0.5},
     "nodeParent":-1,
-    "maxID":19,
+    "maxID":20,
     "label":"Image(Table)",
     "isOpen":true,
     "isDirectory":true,
@@ -24,6 +24,23 @@
             "isAniNode":true,
             "hasChild":false,
             "compId":17,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Script",
+            "switchAble":true,
+            "source":"src/script/Device.js",
+            "searchKey":"Script,Device",
+            "removeAble":true,
+            "props":{"presetID":3,"preset":"laya/pages/prefab/device/Table.prefab","deviceType":"table1"},
+            "nodeParent":16,
+            "label":"Device",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":19,
             "child":[
                 ]
         }],

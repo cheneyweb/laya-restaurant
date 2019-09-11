@@ -16,8 +16,7 @@ export default class SceneCamera extends Laya.Box {
     onDisable () {
     }
     init () {
-        console.log(this)
-        this.mainScene = this.getChildByName("mainScene")
+        this.mainView = this.getChildByName("mainView")
         this.pUpdateMapNav()
     }
     moveScene (direction) {
@@ -38,7 +37,7 @@ export default class SceneCamera extends Laya.Box {
                     return
                 }
                 this.mapPos[1] -= 1
-                Tween.to(this.mainScene, { x: this.mainScene.x + this.moveWidth }, 500, Ease.quadOut, Handler.create(this, this.pMoveEnd))
+                Tween.to(this.mainView, { x: this.mainView.x + this.moveWidth }, 500, Ease.quadOut, Handler.create(this, this.pMoveEnd))
                 break;
             case "right":
                 if (!this.mapNav.right) {
@@ -46,7 +45,7 @@ export default class SceneCamera extends Laya.Box {
                     return
                 }
                 this.mapPos[1] += 1
-                Tween.to(this.mainScene, { x: this.mainScene.x - this.moveWidth }, 500, Ease.quadOut, Handler.create(this, this.pMoveEnd))
+                Tween.to(this.mainView, { x: this.mainView.x - this.moveWidth }, 500, Ease.quadOut, Handler.create(this, this.pMoveEnd))
                 break;
             default:
                 break;
@@ -64,7 +63,6 @@ export default class SceneCamera extends Laya.Box {
             top: Boolean(mapData[mapPos[0] - 1] && mapData[mapPos[0] - 1][mapPos[1]]),
             bottom: Boolean(mapData[mapPos[0] + 1] && mapData[mapPos[0] + 1][mapPos[1]])
         }
-        console.log(this.mapNav)
         this.event(Laya.store.state.EVENT_UPDATEARROW, this.mapNav)
     }
 

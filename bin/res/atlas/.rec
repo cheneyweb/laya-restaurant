@@ -4,6 +4,7 @@ P E78A688B arr_left.png
 P 04C7DD87 arr_right.png
 R DE6BDAF4 bg_kitchen.jpg
 R 3BC36776 bg_mainHall.jpg
+P 97DC8241 customer.png
 P ECFDB229 food.png
 P 87B8E890 Icon_dessert_1.png
 P 3F574BD0 Icon_dessert_2.png
@@ -13,10 +14,10 @@ P 40E9B20C Icon_stove_1.png
 P 2308B76B Icon_stove_2.png
 P 0AF48094 Icon_stove_3.png
 P 26D5C2B9 Icon_stove_4.png
-P F8513221 Icon_table_1.png
-P C9FAD03B Icon_table_2.png
-P 517D1067 Icon_table_3.png
-P FDE127C3 Icon_table_4.png
+P F8513221 Icon_table1_1.png
+P C9FAD03B Icon_table1_2.png
+P 517D1067 Icon_table1_3.png
+P FDE127C3 Icon_table1_4.png
 P 3DF32B36 oven.png
 P DFA28CA8 table.png
 P CE1AABCB wall.jpg
