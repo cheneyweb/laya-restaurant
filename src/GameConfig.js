@@ -3,11 +3,12 @@ import GameView from "./view/GameView"
 import SceneCamera from "./view/SceneCamera"
 import MainView from "./view/MainView"
 import GameUI from "./view/GameUI"
+import DeviceItem from "./ui/DeviceItem"
+import DeviceList from "./ui/DeviceList"
 import MainHall from "./view/MainHall"
 import Device from "./script/Device"
 import CustomerMgt from "./script/CustomerMgt"
 import Customer from "./script/Customer"
-import Test from "./script/Test"
 
 export default class GameConfig {
     static init() {
@@ -17,11 +18,12 @@ export default class GameConfig {
 		reg("view/SceneCamera.js",SceneCamera);
 		reg("view/MainView.js",MainView);
 		reg("view/GameUI.js",GameUI);
+		reg("ui/DeviceItem.js",DeviceItem);
+		reg("ui/DeviceList.js",DeviceList);
 		reg("view/MainHall.js",MainHall);
 		reg("script/Device.js",Device);
 		reg("script/CustomerMgt.js",CustomerMgt);
 		reg("script/Customer.js",Customer);
-		reg("script/Test.js",Test);
     }
 }
 GameConfig.width = 750;

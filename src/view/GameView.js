@@ -6,7 +6,6 @@ export default class GameView extends Laya.Scene {
         super()
     }
     onEnable() {
-        console.log(this)
         this.pAddEvent()
         this.gameUI.init()
         this.sceneCamera.init()

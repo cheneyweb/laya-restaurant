@@ -4,6 +4,7 @@ P E78A688B arr_left.png
 P 04C7DD87 arr_right.png
 R DE6BDAF4 bg_kitchen.jpg
 R 3BC36776 bg_mainHall.jpg
+P 2E88AC93 close_red_bt_icon.png
 P 97DC8241 customer.png
 P ECFDB229 food.png
 P 87B8E890 Icon_dessert_1.png
@@ -18,6 +19,11 @@ P F8513221 Icon_table1_1.png
 P C9FAD03B Icon_table1_2.png
 P 517D1067 Icon_table1_3.png
 P FDE127C3 Icon_table1_4.png
+P E676089F lock.png
 P 3DF32B36 oven.png
+P 84372690 select.png
 P DFA28CA8 table.png
+P 67FE3766 UI_menuList_bg.png
+P 41ED2D42 UI_menuList_item.png
+P EE932DEE UI_menuList_item_act.png
 P CE1AABCB wall.jpg

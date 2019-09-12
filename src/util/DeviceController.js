@@ -7,7 +7,6 @@ class DeviceController{
   }
   setDevice(name,clas){
     this.deviceList[name] = clas
-    console.log(this.deviceList)
   }
   changeDevice(name,level){
     this.deviceList[name].change(level)

@@ -6,7 +6,6 @@ export default class MainView extends Laya.View {
     }
     
     onEnable() {
-        console.log(this)
     }
 
     onDisable() {

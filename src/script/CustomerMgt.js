@@ -6,7 +6,6 @@ export default class CustomerMgt extends Laya.Script {
     }
 
     onEnable () {
-        console.log(this.owner)
         this.mainHall = this.owner.mainHall
     }
 
